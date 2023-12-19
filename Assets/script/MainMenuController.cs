@@ -9,9 +9,11 @@ public class MainMenuController : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("Game");
+        Debug.Log("Ini Game");
     }
     public void OpenAuthor()
     {
-        Debug.Log("Created by I Komang Candra Suardinata");
+        SceneManager.LoadScene("Author");
+        Debug.Log("Testooo");
     }
 }
